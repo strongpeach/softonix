@@ -1,0 +1,45 @@
+.wrapper {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(20, 20, 20);
+  margin: 0;
+  width: 1500px;
+}
+.header {
+    background-color: 333333;
+    display: flex;
+    align-items: center;     /*Центрирование по вертикали */
+    height: 67px;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+    color: #ffffff
+   
+}
+.menulastitem {
+    color: #ffffff
+}
+.submenu {
+height: 53px;
+1background-color: red;
+border-bottom: 1px dashed #f0f0f0;
+    display: flex;
+    align-items: center;
+    
+}
+.content ul {
+    color: red;
+    list-style-position: inside;
+    padding: 0 30 0 0;
+    margin: 0;
+    float: left;
+}
+.bodytext{
+    
+    position: absolute;
+    left: 355px;
+    width: 745px;
+
+}
